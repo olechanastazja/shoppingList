@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ShoppingList2</string>
+    <string name="bought">Bought</string>
+    <string name="products_list_title">Products List</string>
+    <string name="name">Name</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="add_delete">Add/Delete</string>
+    <string name="preferences">Preferences</string>
+    <string name="insert_text">Insert Text</string>
+    <string name="product_activity">Shopping List</string>
+    <string name="hello_text">Hello!</string>
+    <string name="button_size">Button Size</string>
+    <string name="green">green</string>
+    <string name="red">red</string>
+    <string name="save">Save</string>
+    <string name="text_size">Text size</string>
+</resources>
