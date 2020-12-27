@@ -19,6 +19,7 @@ class MainActivity: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.et1.text = intent.getStringExtra("user")
         sp = getSharedPreferences("options", Context.MODE_PRIVATE)
 
         binding.bt1.setOnClickListener {

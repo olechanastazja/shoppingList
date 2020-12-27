@@ -10,22 +10,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ShoppingList2">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
-        android:name=".ProductListActivity"
-        android:parentActivityName=".MainActivity"
-        tools:ignore="WrongManifestParent" />
-
+            android:name=".ProductListActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            tools:ignore="WrongManifestParent" />
         <activity
             android:name=".OptionsActivity"
             android:parentActivityName=".MainActivity"
             tools:ignore="WrongManifestParent" />
-    <activity android:name=".MainActivity">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
+        <activity android:name=".MainActivity">
+        </activity>
     </application>
+
 </manifest>

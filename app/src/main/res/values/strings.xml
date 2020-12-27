@@ -15,4 +15,6 @@
     <string name="red">red</string>
     <string name="save">Save</string>
     <string name="text_size">Text size</string>
+    <string name="studentInsertion">StudentInsertion</string>
+    <string name="productInsertion">ProductInsertion</string>
 </resources>
