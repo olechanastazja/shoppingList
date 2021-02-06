@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/appWidgetBackgroundColor"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_margin"
+    android:theme="@style/ThemeOverlay.ShoppingList2.AppWidgetContainer">
+
+    <TextView
+        android:id="@+id/widget_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="?attr/appWidgetBackgroundColor"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/appwidget_text"
+        android:textColor="?attr/appWidgetTextColor"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/widget_bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WWW" />
+
+    <LinearLayout
+        android:id="@+id/btnList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/widget_bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play" />
+
+        <Button
+            android:id="@+id/widget_bt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pause" />
+
+        <Button
+            android:id="@+id/widget_bt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stop" />
+
+        <Button
+            android:id="@+id/widget_bt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next" />
+
+
+    </LinearLayout>
+
+    <!--    <EditText-->
+<!--        android:id="@+id/textAudio"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="@string/audio"-->
+<!--        android:textSize="18sp" />-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/btnList"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center">-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="345dp"
+        android:contentDescription="@string/guinea_pig"
+        android:src="@drawable/spagett" />
+
+
+
+</LinearLayout>

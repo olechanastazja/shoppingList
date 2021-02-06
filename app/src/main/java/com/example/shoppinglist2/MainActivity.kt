@@ -30,6 +30,14 @@ class MainActivity: AppCompatActivity() {
             val intent2 = Intent(this, OptionsActivity::class.java)
             startActivity(intent2)
         }
+        binding.bt3.setOnClickListener {
+            val intent3 = Intent(this, MapsActivity::class.java)
+            startActivity(intent3)
+        }
+        binding.bt4.setOnClickListener {
+            val intent4 = Intent(this, StoreListActivity::class.java)
+            startActivity(intent4)
+        }
     }
 
     override fun onStart() {
